@@ -17,7 +17,7 @@ public class GitHubTest {
         String pageText = $("body").getText();
         assertTrue(pageText.contains("gradle/wrapper"));
         
-        // Шаг 7: Проверяем наличие текста "src/test/java" (это должно вызвать ошибку)
+        // Шаг 7: Проверяем наличие текста "src/test/java"
         $("body").shouldHave(text("src/test/java"));
     }
 }
