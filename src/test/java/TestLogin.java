@@ -8,7 +8,7 @@ public class TestLogin {
     @Test
     void test01_find_element() {
         open("https://slqa.ru/cases/ChatGPTLogin/");
-        $(By.id("username")).setValue("standard_user");
+        $(By.id("username")).setValue("Vasilissa");
         sleep(5_000);
     }
 }
